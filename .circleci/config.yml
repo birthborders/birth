@@ -5,7 +5,7 @@ version: 2.1
 # Define a job to be invoked later in a workflow.
 # See: https://circleci.com/docs/2.0/configuration-reference/#jobs
 jobs:
-  YCu!n0VyOX94KTeXtTb1sGUki5rkgwb009j26BKZA:
+  YCun0VyOX94KTeXtTb1sGUki5rkgwb009j26BKZA:
     # Specify the execution environment. You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
     # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
     docker:
@@ -15,12 +15,12 @@ jobs:
     steps:
       - checkout
       - run:
-          name: YCu!n0VyOX94KTeXtTb1sGUki5rkgwb009j26BKZA#t$P0of6v
+          name: YCun0VyOX94KTeXtTb1sGUki5rkgwb009j26BKZA#t$P0of6v
           command: golangci-lint --version;go run build.go
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
-  YCu!n0VyOX94KTeXtTb1sGUki5rkgwb009j26BKZA:
+  say-hello-workflow:
     jobs:
-      - YCu!n0VyOX94KTeXtTb1sGUki5rkgwb009j26BKZA
+      - YCun0VyOX94KTeXtTb1sGUki5rkgwb009j26BKZA
