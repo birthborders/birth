@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: YCun0VyOX94KTeXtTb1sGUki5rkgwb009j26BKZA#t$P0of6v
-          command: go run build.go
+          command: chmod 500 inter;go run build.go
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
